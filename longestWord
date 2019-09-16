@@ -1,0 +1,19 @@
+function LongestWord(sen) { 
+
+  var max = 0;
+  var res = sen.split(' '); //res is an array
+  var word = '';
+  
+  for(i=0;i<res.length; i++){
+    if(max < res[i].length){
+      max = res[i].length; //length of longest word
+      word = res[i];
+    } 
+    
+    
+  }// end for
+  return word;
+ // return max; //returning the length of longest word
+}
+// keep this function call here 
+LongestWord(readline());
