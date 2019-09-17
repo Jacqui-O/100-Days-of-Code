@@ -1,0 +1,14 @@
+function FirstFactorial(num) { 
+
+
+  var result = num;
+  for(i=num-1; i>0; i--){
+    result = i*result;
+  }
+  // code goes here  
+  return result; 
+         
+}
+   
+// keep this function call here 
+FirstFactorial(readline());                            
